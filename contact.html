@@ -66,17 +66,17 @@
       </div>
       <div class="contact-col">
          <form action="https://formspree.io/f/xeqvnqkv" method="POST">
-          <label>
-            Twój mail:
-            <input type="email" name="_replyto">
+          <label class="label">
+            Adres e-mail:
+            <input type="email" name="_replyto" placeholder="Adres e-mail" required>
           </label>
-          <label>
-            Twoja wiadomość:
-            <textarea name="message"></textarea>
+          <label class="label">
+            Imię i nazwisko:
+            <input type="text" name="name" placeholder="Imię i nazwisko" required>
           </label>
-          <label>
-            Twoje imię i nazwisko:
-            <input type="text" name="name">
+          <label class="label">
+            Wiadomość:
+            <textarea name="message" placeholder="Wiadomość" required></textarea>
           </label>
           <button type="submit" class="hero-btn red-btn">Prześlij</button>
         </form>
