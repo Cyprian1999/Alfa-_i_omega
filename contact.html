@@ -61,27 +61,44 @@
         <div>
           <i class="im im-mail"></i>
           <span>
-            <h5>alfaiomegakursy@gmail.com</h5>
+            <h5>Cyprian.galicki@gmail.com</h5>
             <p>Wyślij swoje pytania</p>
           </span>
         </div>
       </div>
       <div class="contact-col">
-        <form action="form-handler.php" method="POST">
-          <label class="label">
-            Adres e-mail:
-            <input type="email" name="_replyto" placeholder="Adres e-mail" required>
-          </label>
-          <label class="label">
+        <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSf86KV1Jt1HvvZJOWP7KHCUeBVGbnfCW9FFwZ1PsufhBioZ5A/formResponse?">
+          <label class="label" for="entry.2002319927">
             Imię i nazwisko:
-            <input type="text" name="name" placeholder="Imię i nazwisko" required>
+            <input type="text" name="entry.2002319927" id="entry.2002319927" placeholder="Imię i nazwisko" required>
           </label>
-          <label class="label">
+          <label class="label" for="entry.862082298">
+            Adres e-mail:
+            <input type="text" name="entry.862082298" placeholder="Adres e-mail" id="entry.862082298" required>
+          </label>
+          <label class="label" for="entry.1539915736">
+            Temat:
+            <input type="text" name="entry.1539915736" placeholder="Temat" id="entry.1539915736" required>
+          </label>
+          <label class="label" for="entry.1391746931">
             Wiadomość:
-            <textarea name="message" placeholder="Wiadomość" required></textarea>
+            <textarea name="entry.1391746931" placeholder="Wiadomość" id="entry.1391746931" required></textarea>
           </label>
           <button type="submit" class="hero-btn red-btn">Prześlij</button>
         </form>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted==true){}"></iframe>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+          var submitted = false;
+        </script>
+        <script type="text/javascript">
+          $('#gform').on('submit', function (e) {
+            $('#gform *').fadeOut(2000);
+            $('#gform').prepend('Dziękujemy za przesłaną wiadomość!');
+          });
+        </script>
       </div>
     </div>
   </section>
