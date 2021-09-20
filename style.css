@@ -53,7 +53,7 @@ font-family: 'Poppins', sans-serif;
   width:90%;
   color:#fff;
   position: absolute;
-  top: 41%;
+  top: 29%;
   left: 5%;
   transform: translate (-25%,-25%);
   text-align: center;
@@ -63,7 +63,7 @@ font-family: 'Poppins', sans-serif;
  }
 .text-box p{
   margin: 10px 0 40px;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
 }
 .hero-btn{
@@ -87,7 +87,7 @@ nav .im{
 }
 @media(max-width:700px){
   .text-box h1{
-  font-size: 22px;
+  font-size: 26px;
   }
   .nav-links ul li{
   display: block;
@@ -327,4 +327,7 @@ padding:30px 2px;
 }
 .opis{
   font-size: 20px;
+}
+.Alfa{
+  color: #FF6542;
 }
