@@ -385,19 +385,19 @@ padding:30px 2px;
    width:90%;
   color:#fff;
   position: absolute;
-  top: 17%;
+  top: 12%;
   left: 5%;
   transform: translate (-25%,-25%);
   text-align: center;
 }
 .text-box_1 h1{
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #FF6542;
   text-align: center;
  }
 .text-box_1 p{
   margin: 10px 0 40px;
-  font-size: 22px;
+  font-size: 1.5rem;
   color: #fff;
   text-align: center;
 
