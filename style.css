@@ -63,7 +63,7 @@ font-family: 'Poppins', sans-serif;
  }
 .text-box p{
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
 }
 .hero-btn{
@@ -88,6 +88,9 @@ nav .im{
 @media(max-width:700px){
   .text-box h1{
   font-size: 26px;
+  }
+  .text-box p{
+    font-size: 14px;
   }
   .nav-links ul li{
   display: block;
@@ -391,13 +394,14 @@ padding:30px 2px;
   text-align: center;
 }
 .text-box_1 h1{
-  font-size: 40px;
+  font-size: 50px;
   color: #FF6542;
   text-align: center;
  }
 .text-box_1 p{
   margin: 10px 0 40px;
-  font-size: 20px;
+  font-size: 28px;
+  line-height: 150%;
   color: #fff;
   text-align: center;
 
