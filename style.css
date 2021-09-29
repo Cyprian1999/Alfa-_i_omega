@@ -439,4 +439,7 @@ padding:30px 2px;
   .text-box_1{
     top: 5%;
   }
+  .text_box p{
+    font-size: 12px;
+  }
 }
