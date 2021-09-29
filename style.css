@@ -53,7 +53,7 @@ font-family: 'Poppins', sans-serif;
   width:90%;
   color:#fff;
   position: absolute;
-  top: 29%;
+  top: 23%;
   left: 5%;
   transform: translate (-25%,-25%);
   text-align: center;
@@ -385,7 +385,7 @@ padding:30px 2px;
    width:90%;
   color:#fff;
   position: absolute;
-  top: 15%;
+  top: 12%;
   left: 5%;
   transform: translate (-25%,-25%);
   text-align: center;
@@ -415,5 +415,14 @@ padding:30px 2px;
   font-size: 26px;
   }
   .text-box_1 p{
+    font-size: 20px;
+  }
+}
+@media(max-width:320px){
+  .text-box_1 h1{
+  font-size: 22px;
+  }
+  .text-box_1 p{
     font-size: 18px;
+  }
   }
